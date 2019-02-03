@@ -21,6 +21,7 @@ nav a:hover {
 }
 
 .comment {
+ margin-top: 2rem;
  position: relative;
  padding: 1rem 2rem;
 }
