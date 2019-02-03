@@ -3,6 +3,28 @@ body {
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+nav {
+ position: fixed;
+ left: 1rem;
+ top: -5px;
+ background-color: #eee;
+ border: 1px solid #999;
+ border-radius: 5px;
+ border-width: 0 1px 1px 1px;
+ padding: .5rem;
+}
+
+nav a:hover {
+ background-color: #ddd;
+ padding: .5rem 0;
+ color: #333;
+}
+
+.comment {
+ position: relative;
+ padding: 1rem 2rem;
+}
+
 .container {
  max-width: 60rem;
  margin: 2rem auto;
@@ -74,11 +96,6 @@ div.stage3 div.jours div {
 .stage4 {
  z-index: 70;
  transition: 2s;
-}
-
-.comment {
- position: relative;
- padding: 1rem 2rem;
 }
 
 /*
