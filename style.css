@@ -12,6 +12,7 @@ nav {
  border-radius: 5px;
  border-width: 0 1px 1px 1px;
  padding: .5rem;
+ z-index: 200;
 }
 
 nav a:hover {
@@ -48,8 +49,9 @@ div.container div p {
  margin: 1rem;
 }
 
-.stage1 {
+div.container>.stage1 {
  z-index: 100;
+ height: 9rem;
 }
 
 .stage1 form span {
@@ -89,7 +91,7 @@ div.stage3 div.jours div {
  height: 2rem;
  text-align: center;
  line-height: 2rem;
- background-color: #333;
+ background-color: #666;
  color: #ddd;
  cursor: pointer;
 }
