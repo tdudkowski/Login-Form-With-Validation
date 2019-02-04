@@ -108,8 +108,8 @@ const go3 = () => {
  }
 }
 
+// "Email Validation Rules" http://rumkin.com/software/email/rules.php
 const mailValidation = () => {
- if (input_email.value == "") return;
  let mailString = input_email.value.split('@');
  if (mailString[0].length == 0 || mailString[2]) return;
  mailString = mailString[1].split('.');
